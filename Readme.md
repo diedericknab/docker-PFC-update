@@ -1,6 +1,6 @@
 # FTP Upload and Reboot Script
 
-This script uploads a file to a remote device via FTP and then reboots the device using SSH. It reads IP addresses from a file (`IPadres.txt`) and performs the operation on each IP address listed.
+This script uploads a file to a remote device via FTP and then reboots the device using SSH. It reads IP addresses from a file (`IPadres.txt`) and performs the operation on each IP address listed. This is the way to upload a new (boot) CODESYS application. Restarting the controller makes sure the new application is running.
 
 ## Prerequisites
 
